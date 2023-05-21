@@ -1,2 +1,2 @@
-# barbeariaAlura
-Site "Barbearia Alura" - exercíco de estudos em HTML e CSS
+# Barbearia Alura
+Exercício de estudos em HTML e CSS.
