@@ -1,18 +1,5 @@
-#banner {
-	width:100%;
-}
-
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
-}
-
-.titulo-principal {
-	padding-left: 20px;
-}
-
-.titulo-centralizado {
-	text-align: center
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {

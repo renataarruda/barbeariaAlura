@@ -1,3 +1,11 @@
+#banner {
+	width:100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -5,6 +13,11 @@ header {
 
 .caixa {
 	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+main {
 	width: 940px;
 	margin: 0 auto;
 }
@@ -31,6 +44,39 @@ nav a {
 nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+	margin: 0 0 1em;
+}
+
+.utensilios {
+    width: 150px;
+    float: left;
+    clear: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 60%;
 }
 
 footer {
