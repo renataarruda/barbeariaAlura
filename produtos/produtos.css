@@ -1,3 +1,5 @@
+
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -5,6 +7,11 @@ header {
 
 .caixa {
 	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+main {
 	width: 940px;
 	margin: 0 auto;
 }
