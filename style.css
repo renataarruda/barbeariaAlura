@@ -48,14 +48,6 @@ nav a:hover {
     clear: left;
 }
 
-.titulo-principal:before {
-    content: "[ ";
-}
-
-.titulo-principal:after{
-    content: " ]";
-}
-
 .principal {
 	margin: 2em;
     background: #FEFEFE;
@@ -253,7 +245,28 @@ footer {
 }
 
 @media  screen and (max-width:480px) {
-	body{
-
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos, .produtos li, form{
+		width: auto;
 	}
+
+	h1, .input-padrao, textarea, label, fieldset {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios, table, .enviar, select{
+		width: 100%;
+	}
+
+	.input-padrao, textarea, label {
+		width: 85%;
+	}
+
+	#nomesobrenome, #email, #telefone {
+		width: 95%;
+	}
+
 }
