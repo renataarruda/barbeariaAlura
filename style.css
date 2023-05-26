@@ -13,10 +13,6 @@ header {
 	margin: 0 auto;
 }
 
-main {
-    
-}
-
 nav {
 	position: absolute;
 	top: 110px;
@@ -254,4 +250,10 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
+}
+
+@media  screen and (max-width:480px) {
+	body{
+
+	}
 }
