@@ -20,12 +20,9 @@ p {
 }
 
 #missao {
-	font-size: 20px
+	font-size: 15px
 }
 
-em strong {
-	color: #FF0000;
-}
 
 .itens {
 	font-style: italic
