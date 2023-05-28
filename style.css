@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -39,6 +40,7 @@ nav a:hover {
 
 .banner {
     width: 100%;
+	object-fit:cover;
 }
 
 .titulo-principal {
@@ -52,7 +54,7 @@ nav a:hover {
 	margin: 2em;
     background: #FEFEFE;
     width: 940px;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 .principal p{
@@ -74,7 +76,7 @@ nav a:hover {
 }
 
 .mapa {
-    padding: 3em 0;
+    padding: 3em auto;
     background: linear-gradient(#fffe, #888888);
 }
 
@@ -89,6 +91,7 @@ nav a:hover {
 }
 
 .beneficios {
+
     padding: 3em 0;
     background: #888888;
 }
@@ -173,20 +176,21 @@ nav a:hover {
 }
 
 form {
-	margin: 40px 0;
+	margin: 40px 20px;
 }
 
 form label, form legend {
 	display:block;
 	font-size: 20px;
-	margin: 20px 0 10px;
+	margin: 20px 0 10px ;
     padding: 10px;
 }
 
 .input-padrao {
 	display: block;
 	padding: 10px 25px;
-	width: 50%;
+	margin: 20px 0 10px;
+	width: 40%;
 }
 
 .checkbox {
@@ -212,7 +216,15 @@ form label, form legend {
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 1em;
+}
+
+select {
+	height: 30px;
+}
+
+table, select {
+	width: 40%;
 }
 
 thead {
@@ -225,7 +237,6 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
-
 
 .video {
     width: 560px;
